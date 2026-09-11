@@ -1,0 +1,25 @@
+{
+  "config": {
+    "n_estimators": 200,
+    "max_samples": 256,
+    "contamination": "auto",
+    "random_state": 20260909
+  },
+  "features": [
+    "member_count",
+    "start_count",
+    "mean_start_interval_seconds",
+    "mean_member_lifetime_seconds",
+    "mean_cpu_activity_percent",
+    "cpu_variability_percent_points",
+    "mean_memory_demand",
+    "cpu_resource_footprint_core_seconds"
+  ],
+  "metadata_excluded": [
+    "dataset",
+    "entity_type",
+    "entity_id",
+    "observation_start_seconds",
+    "observation_end_seconds"
+  ]
+}

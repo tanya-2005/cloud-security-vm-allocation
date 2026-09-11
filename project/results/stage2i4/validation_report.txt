@@ -1,0 +1,35 @@
+STAGE 2I.4 INDEPENDENT VALIDATION REPORT
+=========================================
+Input: project\results\stage2i3\suite_runs.csv
+(Analysis-only: the suite was NOT re-run.)
+
+=== SECTION 1: structure ===
+Rows parsed: 240 / expected 240 -> OK
+Parse failures: 0
+Unique run keys: 240 / 240; duplicate keys: 0 -> OK
+Distinct cells: 12 / 12 -> OK
+Cells: [A-alibaba-M, A-azure-M, B-alibaba-L, B-alibaba-M, B-azure-L, B-azure-M, C-alibaba-M, C-azure-M, D-alibaba-M, D-azure-M, E-alibaba-M, E-azure-M]
+All 4 methods in every cell: OK
+All 5 seeds (1-5) for every cell x method: OK
+
+=== SECTION 2: metric validity ===
+Objectives finite & non-negative: OK
+B1 migration count == 0 (all rows): OK
+migration_cost == migration_count (perMigration=1): OK
+Utilizations within [0,1]: OK
+Fingerprints present on all rows: OK
+
+=== SECTION 3: fairness fingerprints ===
+Exactly one initial-placement fingerprint per cell (all methods share the FFD start): OK
+B3 final placement varies across seeds: OK (all cells)
+overall_utilization == (cpu+mem)/2 identity: OK
+
+=== SECTION 4: NSSAO search telemetry ===
+Proposed rows: 60
+NSSAO iterations range: 8.0..10.0
+stopped_by_stall=true: 1 of 60
+Front/telemetry fields missing: 0
+
+=== SECTION 5: reproducibility artifacts ===
+repro_runs.csv rows: 32
+Match vs primary: 32; mismatch: 0 -> OK

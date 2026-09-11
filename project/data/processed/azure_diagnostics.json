@@ -1,0 +1,84 @@
+{
+  "row_count": 248,
+  "entity_count": 248,
+  "rejected": {
+    "invalid_lifetime": 1
+  },
+  "features": {
+    "member_count": {
+      "min": 1.0,
+      "max": 16.0,
+      "mean": 2.0161290322580645,
+      "median": 1.0,
+      "std": 2.255759191877044,
+      "missing": 0,
+      "finite": 248
+    },
+    "start_count": {
+      "min": 1.0,
+      "max": 16.0,
+      "mean": 2.0161290322580645,
+      "median": 1.0,
+      "std": 2.255759191877044,
+      "missing": 0,
+      "finite": 248
+    },
+    "mean_start_interval_seconds": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "std": 0.0,
+      "missing": 166,
+      "finite": 82
+    },
+    "mean_member_lifetime_seconds": {
+      "min": 0.0,
+      "max": 2591400.0,
+      "mean": 2162332.4660923756,
+      "median": 2591400.0,
+      "std": 834387.2112250886,
+      "missing": 0,
+      "finite": 248
+    },
+    "mean_cpu_activity_percent": {
+      "min": 0.04300774880896563,
+      "max": 84.68883292169372,
+      "mean": 8.126313969528093,
+      "median": 4.150644738891148,
+      "std": 10.970206197847872,
+      "missing": 0,
+      "finite": 248
+    },
+    "cpu_variability_percent_points": {
+      "min": 0.014137856317049557,
+      "max": 46.4110365838521,
+      "mean": 6.20544793971094,
+      "median": 2.1576370586070714,
+      "std": 10.11091224851275,
+      "missing": 166,
+      "finite": 82
+    },
+    "mean_memory_demand": {
+      "min": 2.0,
+      "max": 36.0,
+      "mean": 10.285414339244985,
+      "median": 5.0,
+      "std": 11.280935363861204,
+      "missing": 0,
+      "finite": 248
+    },
+    "cpu_resource_footprint_core_seconds": {
+      "min": 0.0,
+      "max": 24134851.716079302,
+      "mean": 1272992.5574630774,
+      "median": 245615.69520434257,
+      "std": 3178728.6265863883,
+      "missing": 0,
+      "finite": 248
+    }
+  },
+  "complete_feature_entities": 82,
+  "cpu_reading_vm_count": 500,
+  "source_rows": 501
+}

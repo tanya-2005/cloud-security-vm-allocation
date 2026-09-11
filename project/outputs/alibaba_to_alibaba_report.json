@@ -1,0 +1,99 @@
+{
+  "source": "alibaba",
+  "target": "alibaba",
+  "calibration": {
+    "raw_score_min": -0.7172891668403532,
+    "raw_score_max": -0.30118134578244043,
+    "effective_max_samples": 67
+  },
+  "summary": {
+    "entities": 67,
+    "anomaly_rate_at_0_5": 0.16417910447761194,
+    "threat_score": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.20740802548513734,
+      "median": 0.08524945479185049,
+      "std": 0.24218429838575195,
+      "quantiles": {
+        "0.5": 0.08524945479185049,
+        "0.75": 0.3181740654705155,
+        "0.9": 0.585218767152462,
+        "0.95": 0.7070939330821778,
+        "0.99": 0.870330004121405
+      }
+    },
+    "top_entities": [
+      {
+        "dataset": "alibaba_v2018",
+        "entity_type": "batch_job",
+        "entity_id": "j_22784",
+        "threat_score": 1.0,
+        "isolation_forest_score": -0.7172891668403532
+      },
+      {
+        "dataset": "alibaba_v2018",
+        "entity_type": "batch_job",
+        "entity_id": "j_16759",
+        "threat_score": 0.803530309274855,
+        "isolation_forest_score": -0.6355365919287911
+      },
+      {
+        "dataset": "alibaba_v2018",
+        "entity_type": "batch_job",
+        "entity_id": "j_21868",
+        "threat_score": 0.7276725661994692,
+        "isolation_forest_score": -0.6039715917473213
+      },
+      {
+        "dataset": "alibaba_v2018",
+        "entity_type": "batch_job",
+        "entity_id": "j_16464",
+        "threat_score": 0.7268378103422043,
+        "isolation_forest_score": -0.6036242433064395
+      },
+      {
+        "dataset": "alibaba_v2018",
+        "entity_type": "batch_job",
+        "entity_id": "j_24283",
+        "threat_score": 0.661024886142117,
+        "isolation_forest_score": -0.5762389708200916
+      },
+      {
+        "dataset": "alibaba_v2018",
+        "entity_type": "batch_job",
+        "entity_id": "j_22599",
+        "threat_score": 0.6408094370025712,
+        "isolation_forest_score": -0.5678271643269281
+      },
+      {
+        "dataset": "alibaba_v2018",
+        "entity_type": "batch_job",
+        "entity_id": "j_20709",
+        "threat_score": 0.6029509693787832,
+        "isolation_forest_score": -0.5520739598554022
+      },
+      {
+        "dataset": "alibaba_v2018",
+        "entity_type": "batch_job",
+        "entity_id": "j_2745",
+        "threat_score": 0.5733972990015812,
+        "isolation_forest_score": -0.5397764464704808
+      },
+      {
+        "dataset": "alibaba_v2018",
+        "entity_type": "batch_job",
+        "entity_id": "j_24187",
+        "threat_score": 0.542144280544065,
+        "isolation_forest_score": -0.5267718210586411
+      },
+      {
+        "dataset": "alibaba_v2018",
+        "entity_type": "batch_job",
+        "entity_id": "j_13297",
+        "threat_score": 0.5352167729263685,
+        "isolation_forest_score": -0.5238892309584793
+      }
+    ]
+  }
+}

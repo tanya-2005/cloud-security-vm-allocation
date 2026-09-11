@@ -1,0 +1,99 @@
+{
+  "source": "azure",
+  "target": "azure",
+  "calibration": {
+    "raw_score_min": -0.7402872001654163,
+    "raw_score_max": -0.3349904370804818,
+    "effective_max_samples": 248
+  },
+  "summary": {
+    "entities": 248,
+    "anomaly_rate_at_0_5": 0.125,
+    "threat_score": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.2031741011981151,
+      "median": 0.12625266329947643,
+      "std": 0.2190177359178679,
+      "quantiles": {
+        "0.5": 0.12625266329947643,
+        "0.75": 0.291474513266845,
+        "0.9": 0.5436300157787092,
+        "0.95": 0.6605621109472639,
+        "0.99": 0.8726937701943264
+      }
+    },
+    "top_entities": [
+      {
+        "dataset": "azure_v2",
+        "entity_type": "deployment",
+        "entity_id": "476DlZlyTx3dxFL74kSxFB9l6Sg/ZwltulQcDrkkhKbBfRIenku4W86a1GSmNFgOJ0m/8A+/gr7gktGmwOARDQ==",
+        "threat_score": 1.0,
+        "isolation_forest_score": -0.7402872001654163
+      },
+      {
+        "dataset": "azure_v2",
+        "entity_type": "deployment",
+        "entity_id": "0x1iDBwH8UsbtE9HeqXgwfzJiNbcWO4U2047ME4VIYSqpbXidrkH+Fl79946vNyoKrkdfJkXdmIVw8oJY+zJzg==",
+        "threat_score": 0.9117945718532791,
+        "isolation_forest_score": -0.7045378256510295
+      },
+      {
+        "dataset": "azure_v2",
+        "entity_type": "deployment",
+        "entity_id": "1LNzCYtFQ1NNFCBm1xrm+13cpcFwJFXLWacR92PFL5PrUCC4HRh5f9YtJZHaPHZ7M+miaEoUqHtspRA72nFPhA==",
+        "threat_score": 0.9001081522714379,
+        "isolation_forest_score": -0.6998013576224569
+      },
+      {
+        "dataset": "azure_v2",
+        "entity_type": "deployment",
+        "entity_id": "D0Q3SRMPsuSATtHOsHuC2DGKmthVGj7KXsMOrITbF0vDxm/yjpwnMJMmRX3MZDzXCK/BDr9vknlxr0ymTGx5mw==",
+        "threat_score": 0.8417796797669451,
+        "isolation_forest_score": -0.6761610165206974
+      },
+      {
+        "dataset": "azure_v2",
+        "entity_type": "deployment",
+        "entity_id": "3PNgWPm+CRZfxad+n+4/bqBM+PTE5bKsInMR1VQ7Rfws/Ff07tJlg6RaC0PufUQ333OkqHC5gg3Zuz7gubGKMA==",
+        "threat_score": 0.8106333784456937,
+        "isolation_forest_score": -0.6635375214131262
+      },
+      {
+        "dataset": "azure_v2",
+        "entity_type": "deployment",
+        "entity_id": "0Kj50+yzaaJ1lVYZISpt8OkEnAiE1Li8HaUSAI3OL/J6C+ohe+sQ8snQWY6xeBcBn2EstD8gj0cXUE5PFqTkCg==",
+        "threat_score": 0.8034563571037409,
+        "isolation_forest_score": -0.6606286978946412
+      },
+      {
+        "dataset": "azure_v2",
+        "entity_type": "deployment",
+        "entity_id": "5gUvyObRTFKh8hD6LOxiyZKkHGisKz2KO+lW/zbTAVqGpBjMqh9bSQNEddcHdtd6tX8i5a2ApYp0QaMPbDzS7g==",
+        "threat_score": 0.7801453055621829,
+        "isolation_forest_score": -0.6511808041607416
+      },
+      {
+        "dataset": "azure_v2",
+        "entity_type": "deployment",
+        "entity_id": "7+Vr03DEoMHepDVMNwIcg6ZMiIiXJBvlh5PsvSpGSwWD6xIbFUYhR77tXkDhBLOjSbwPiGcEMrV8+irmJKM3Ew==",
+        "threat_score": 0.7673831703994872,
+        "isolation_forest_score": -0.6460083520892487
+      },
+      {
+        "dataset": "azure_v2",
+        "entity_type": "deployment",
+        "entity_id": "G+EjqwmjBwI5ISlEwnlXGkDzn6nvzjo3lgfWMdrFifvPwpCL5JAWQ0Kgn5NiOHtXJgi8k4GhPWQPx5TaRFvibw==",
+        "threat_score": 0.7638347137979878,
+        "isolation_forest_score": -0.6445701741147136
+      },
+      {
+        "dataset": "azure_v2",
+        "entity_type": "deployment",
+        "entity_id": "96Ub6cHRLJ+pMt2vZNfzTolMyHVCLg0Ddqs8n6PO4xf73mkLZ/G8pH4+WMwIRPL5NdKwjRFDD9sLWOOmH/A+ng==",
+        "threat_score": 0.7628667144343015,
+        "isolation_forest_score": -0.6441778471059433
+      }
+    ]
+  }
+}
